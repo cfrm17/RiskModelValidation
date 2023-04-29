@@ -26,5 +26,10 @@ Where IPV/VA adjustments have been deemed material and therefore new risk sensit
 
 Once new risk sensitivities are computed for a given portfolio, these will be compared to existing risk sensitivities used to compute the original LOB level VaR figure. Where risk sensitivity differences exist with magnitude greater than 10%, Risk Oversight will work with the Risk Methodologies group using their vetted VaR prototype to compute potential VaR impact at the portfolio and top of the house level. The prototype allows for this kind of assessment in an expedient manner without having to enhance the risk files in the official VaR process. If the VaR change at the LOB node level is greater than a threshold of 15% and/or the impact at the top of the house is greater than 5%, the immediate implementation of a proxy trade will be initiated.
 
-For example, there are more than 1,500 different types of bonds. The differences are specified by calculation type. Each calc type defines a method used to determine the accrued interest, price, yield of the bond based on specified market conventions and security structures. Model validation needs to be very careful. See https://finpricing.com/lib/FiBond.html
+For example, there are more than 1,500 different types of bonds. The differences are specified by calculation type. Each calc type defines a method used to determine the accrued interest, price, yield of the bond based on specified market conventions and security structures. Model validation needs to be very careful.
+
+Reference:
+
+https://finpricing.com/FinPricing-ProductBrochure.pdf
+
 
